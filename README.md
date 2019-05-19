@@ -1,10 +1,10 @@
 # Develop api for working 'google page speed' on website with use vue js ecosystem
 
-## Tools: Vue.Js + Vuetify 
-## Api google page speed https://github.com/GoogleChrome/lighthouse
-```
-## demo  https://google-lighthouse.herokuapp.com/?#/
-```
+### Tools: Vue.Js + Vuetify 
+### Api google page speed https://github.com/GoogleChrome/lighthouse
+
+### demo  https://google-lighthouse.herokuapp.com/?#/
+
 ## Project setup
 ```
 npm install
