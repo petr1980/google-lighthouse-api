@@ -1,0 +1,128 @@
+.v-card {
+  max-width: 100%;
+  margin: 0px auto 20px;
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.04);
+  @media (min-width: 800px) {
+   width: 770px;  
+  }
+}
+
+.toolbar {
+  background: #f5f6fa;
+  color: #43425d;
+  &_title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &_details {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+}
+
+.v-expansion-panel {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: none;
+}
+.theme--light.v-expansion-panel .v-expansion-panel__container {
+  color: #4d4f5c;
+}
+.v-expansion-panel__header {
+  align-items: flex-end;
+}
+
+
+.progress {
+  position: relative;
+  min-width: 40%;
+  margin-left: 70px;
+  padding-top:8px;
+  padding-right: 15px;
+  &_text {
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    line-height: 20px;
+    color:  #b8b8b8;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+  }
+}
+ 
+
+.panel-text {
+  position: relative;
+  padding-left: 30px;
+  &:before {
+    content:'';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    background-color: #b8b8b8;
+    border: 1px solid #b8b8b8;
+    opacity: .2;
+  }
+}
+
+.panel-description {
+  padding-right: 10px;
+  text-align: right;
+  color: #b8b8b8;
+}
+
+.loading {
+  padding: 10% 0;
+}
+
+// === colors
+.fail {
+  .panel-text:before {
+    background-color: #ff6565;
+    border: 1px solid #ff6565;
+  }
+  .progress_text {
+    color: #ff6565;
+  }
+  .panel-description  {
+    color: #ff6565;
+  }
+}
+
+.average  {
+  .panel-text:before {
+    background-color: #fec163;
+    border: 1px solid #fec163;
+  }
+  .progress_text {
+    color: #fec163;
+  }
+  .panel-description  {
+    color: #ff6565;
+  }
+}
+.v-datatable{
+  width: 100%;
+  .first {
+     div {
+      overflow: hidden;
+      text-overflow:  ellipsis;
+      width: 350px;
+   }
+  }
+}
+
+.passed {
+  .panel-text:before {
+    background-color: #5ee2a0;
+    border: 1px solid #5ee2a0;
+  }
+  .panel-description {
+    color: #5ee2a0;
+  }
+}
+

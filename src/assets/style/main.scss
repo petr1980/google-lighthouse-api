@@ -1,0 +1,31 @@
+
+#app {
+  position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: inherit;
+  }
+}
+
+.v-icon {
+  position: relative;
+  top: 2px;
+  font-size:30px;
+  color: #43425d;
+}
+
+.v-progress-linear__background, .v-progress-linear__bar__determinate {
+  border-radius: 3px;
+}
+
+.v-expansion-panel__header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.errors {
+  color: #ff6565;
+}
